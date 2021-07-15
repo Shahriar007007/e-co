@@ -1,0 +1,739 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+
+.top{
+	width: 100%;
+	padding: 0px 0px;
+	background: #eeeeee;
+}
+.top .left h5{
+		font-size: 15px;
+		text-align:left;
+		margin-top: 5px; 
+		color: silver;
+		text-transform: capitalize;
+}
+
+.top .right .list{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+.top .right .nav-item a{
+	color: black;
+}
+.top .right li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	margin: 5px 8px 0px;
+	text-transform: capitalize;
+	color: black;
+	padding: 5px; 
+}
+
+.top .right li:hover{
+	color:pink; 
+}
+
+
+.top-2{
+	width: 100%;
+	padding: 20px 0px;
+}
+.top-2 .input-group{
+	width: 350px;
+	margin-left: 360px;
+}
+.top-2 .input-group .form-control{
+	border-radius: 33px;
+	text-transform: capitalize;
+}
+.top-2 .input-group .input-group-text{
+	border-radius: 33px;
+	background-color: transparent;
+}
+
+
+.header{
+	width: 100%;
+	background: black;
+	padding: 20px 0px;
+}
+.header .bg-light {
+    background-color: transparent!important;
+}
+.header .navbar-brand img{
+	width: 140px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 10px 0px 0px 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: pink;
+}
+.header.navbar-light .navbar-nav .nav-link.active,.header  .navbar-light .navbar-nav .show>.nav-link {
+    color: pink;
+}
+.banner{
+	width: 100%;
+	background: url("../images/image.png") center bottom no-repeat;
+	background-size: cover;
+	height: 550px;
+}
+
+
+.banner .inner .image{
+	position: relative;
+	margin: 100px 0px 0px 250px;
+	width: 600px;
+}
+.banner .inner .text{
+	position: absolute;
+	bottom: 50;
+	left: 300;
+	
+
+}
+.banner .inner .text h1{
+	color: white;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.owl-theme .owl-nav{
+	text-align: right;
+}
+.owl-theme .owl-nav .owl-prev{
+	font-size: 30px;
+	color: silver;
+	left: -55px;
+}
+.owl-theme .owl-nav .owl-prev{
+	font-size: 30px !important;
+	color: black !important;
+	width: 50px;
+	height: 50px;
+	left: -55px !important;
+	border-radius: 60% !important;
+	border: 2px solid black !important;
+
+}
+.owl-theme .owl-nav .owl-next{
+	font-size: 30px;
+	color: black;
+	right: -55px;
+}
+.owl-theme .owl-nav .owl-next{
+	font-size: 30px !important;
+	color: black !important;
+	width: 50px;
+	height: 50px;
+	right: -55px !important;
+	border-radius: 60% !important;
+	border: 2px solid black !important;
+
+}
+.owl-prev , .owl-next{
+	position: absolute;
+	top: 250px;
+}
+
+
+
+
+.feature{
+	width: 100%;
+	padding: 40px 0px;
+}
+.feature .left img{
+	width: 500px;
+	height: 500px;
+}
+.feature .left h5{
+	font-size: 40px;
+	color: red;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.feature .left h3{
+	font-size: 20px;
+	line-height: 30px;
+}
+.feature .left p{
+	font-size: 15px;
+	line-height: 25px;
+}
+.feature .left .btn-light{
+	padding: 10px 30px;
+	text-transform: uppercase;
+	border: 1px solid black;
+}
+.feature .left .btn-light:hover{
+	background: pink;
+	color: white;
+}
+.feature .right .top{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+.feature .right .down{
+	margin-top: 30px;
+	width: 450px;
+	position: relative;
+}
+ .top-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 5, 20, .4);
+	text-align: center;
+	margin: 0px 0px 0px 15px;
+ background-position: center;
+	transform: scale(0);
+	transition: 0.3s;
+}
+.right:hover .item-hover{
+	transform: scale(1);
+}
+
+.item-hover h1{
+	font-size: 30px;
+	color: black;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+		}
+
+
+
+
+.wrapper .title h3{
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-bottom: 1px solid silver;
+}
+.wrapper{
+	width: 100%;
+	padding: 80px 0px;
+	}
+.filter{
+	width: 70%;
+	margin: 0px auto 40px;
+	text-align: center;
+}
+
+.filter .btn-info{
+	padding: 12px 12px;
+	background: #08c;
+	border: 1px solid #08c;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+	margin: 0px 5px;
+	text-transform: capitalize;
+}
+.filter .btn-info:hover{
+	background: transparent;
+	border: 1px solid #08c;
+	color:#08c;
+	box-shadow: 1px 3px 8px #ccc;
+	}
+	.padd{
+		padding: .2px 0px;
+	}
+.portfolio .item{
+width: 100%;
+position: relative;
+}
+.portfolio .item .image .img-fluid{
+	margin: 15px 15px; 
+	position: relative; 
+}
+.portfolio .item .image .text{
+	position: absolute;
+	bottom:370;
+	left: 220;
+	background-color: black;
+	color: white;
+	padding: 5px 5px;
+}
+
+.portfolio  h4{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.portfolio .fc img{
+	margin: 10px 5px 0px;
+}
+.portfolio img{
+	margin: 10px 5px;
+}
+
+.item-hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 5, 20, .4);
+	text-align: center;
+	margin: 0px 0px 0px 15px;
+ background-position: center;
+	transform: scale(0);
+	transition: 0.3s;
+}
+.portfolio .item:hover .item-hover{
+	transform: scale(1);
+}
+.item-hover .fa{
+	font-size: 60px;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+		}
+
+
+
+
+.banner-2{
+	width: 80%;
+	padding: 40px 0px;
+}
+.banner-2 .left{
+	background: url("../images/banner2.png") center bottom no-repeat;
+	background-size: cover;
+	width: 600px;
+	height: 500px;
+
+}
+.banner-2 .left h1{
+	color: white;
+	font-size: 60px;
+	line-height: 70px;
+	margin: 100px 0px 0px 250px;
+	text-align: center;
+	font-weight: 700;
+}
+.banner-2 .left p{
+	color: white;
+	font-size: 30px;
+	line-height: 40px;
+	margin: 5px 0px 0px 210px;
+	text-align: center;
+	font-weight: 500;
+}
+.banner-2 .right{
+	background: url("../images/banner1.png") center bottom no-repeat;
+	background-size: cover;
+	width: 788px;
+	height: 500px;
+	text-align: left;
+
+}
+.banner-2 .right h1{
+	color: white;
+	font-size: 60px;
+	line-height: 70px;
+	text-align: center;
+}
+.banner-2 .right p{
+	color: white;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.review{
+	width: 100%;
+	padding: 40px 0px;
+	background: url("../images/client feedback.png") center bottom no-repeat;
+	background-size: cover;
+
+}
+.review .inner img{
+text-align: center;
+margin: 0px 0px 30px 540px;
+}
+.review .inner p{
+	text-align: center;
+	margin: 50px 0px;
+	color: white;
+}
+.review .inner .img{
+	text-align: center;
+	margin: 20px 0px 20px 520px;
+	width: 80px;
+}
+.review .inner h5{
+	text-align: center;
+	color: white;
+	text-transform: capitalize;
+	font-size: 15px;
+	line-height: 20px;
+} 
+
+
+
+
+
+
+.blog{
+	width: 100%;
+	padding: 40px 0px;
+}
+.blog .title h4{
+	text-align: center;
+	color: silver;
+	text-transform: uppercase;
+	border-bottom: 1px solid silver;
+}
+.left{
+	padding: 20px 0px;
+}
+.left h5{
+	font-size: 40px;
+	color: red;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.blog img{
+	width: 300px;
+	height: 300px;
+}
+.blog .left h5{
+	font-size: 20px;
+	line-height: 30px;
+}
+.blog .left p{
+	font-size: 15px;
+	line-height: 25px;
+}
+.blog .left .btn-light{
+	padding: 10px 30px;
+	text-transform: uppercase;
+	border: 1px solid black;
+}
+.blog .left .btn-light:hover{
+	background: pink;
+	color: white;
+}
+
+
+.footer{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #282531;
+
+}
+.footer .inner{
+	width: 84%;
+}
+.footer p{
+	font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 30px;
+		color: #FFFFFF;
+}
+.footer h5{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.footer .fmenu{
+	margin: 0px 0px 40px;
+	padding: 0px;
+}
+.footer .fmenu li{
+	list-style: none;
+	display: list-item;
+}
+.footer .fmenu li a{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+
+}
+.footer .fmenu li h4{
+	color: white;
+	margin: 10px 0px;
+	text-transform: capitalize;
+}
+
+.footer .fmenu li .form-group .form-control{
+	background: transparent;
+	border: 1px solid silver; 
+}
+
+.footer .main-footer{
+	width: 100%;
+	padding: 40px 0px 20px;
+	margin-bottom: 0px;
+}
+
+.footer .fmenu li .btn-light{
+	padding: 2px 70px;
+	background-color: pink;
+	text-transform: uppercase;
+	border: 1px solid black;
+	color: white;
+}
+.footer .fmenu li .btn-light:hover{
+	background: transparent;
+	color: white;
+}
+.social-link li {
+	list-style: none;
+	display: inline-block;
+}
+.social-link li a{
+	font-size: 17px;
+	margin: 0px 5px;
+	color: black;
+	padding: 5px;
+	border: 1px silver;
+	background-color: silver; 
+}
+.social-link li a:hover{
+	color:#008ed6; 
+}
+.low{
+	background: black;
+}
+.low .right{
+	text-align: left;
+	text-transform: uppercase;
+	color: white;
+	margin: 32px 15px 0px 0px;
+}
+.low .left{
+	text-align: right;
+	margin: 15px 0px 0px 15px;
+}
+.low .left img{
+	margin: 0px 0px 0px 5px;
+	color: black;
+	background-color: black;
+}
+
+
+
+@media(min-width:320px) and (max-width: 480px){
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: black;
+    background: white;
+}
+.top-2 .input-group{
+	width: 300px;
+	margin-left: 0px;
+}
+.top-2 .input-group .form-control{
+	border-radius: 33px;
+	text-transform: capitalize;
+}
+.top-2 .input-group .input-group-text{
+	border-radius: 33px;
+	background-color: transparent;
+}
+
+
+
+
+.banner .inner .image{
+	position: relative;
+	margin: 250px 0px 0px 80px;
+	width: 200px;
+}
+.banner .inner .text{
+	position: absolute;
+	bottom: 50;
+	left: 300;
+	
+
+}
+.banner .inner .text h1 {
+    color: black;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 1px 7px -31px -200px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.feature .left img {
+    width: 300px;
+    height: 300px;
+}
+.feature .right .top {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.feature .right .down {
+    margin-top: 30px;
+    width: 300px;
+    position: relative;
+}
+
+
+.owl-theme .owl-nav{
+	text-align: right;
+}
+.owl-theme .owl-nav .owl-prev{
+	font-size: 30px;
+	color: silver;
+	left: -15px;
+}
+.owl-theme .owl-nav .owl-prev{
+	font-size: 30px !important;
+	color: black !important;
+	width: 50px;
+	height: 50px;
+	left: -15px !important;
+	border-radius: 60% !important;
+	border: 2px solid black !important;
+
+}
+.owl-theme .owl-nav .owl-next{
+	font-size: 30px;
+	color: black;
+	right: -15px;
+}
+.owl-theme .owl-nav .owl-next{
+	font-size: 30px !important;
+	color: black !important;
+	width: 50px;
+	height: 50px;
+	right: -15px !important;
+	border-radius: 60% !important;
+	border: 2px solid black !important;
+
+}
+.owl-prev , .owl-next{
+	position: absolute;
+	top: 250px;
+}
+
+
+
+
+.filter .btn-info {
+    padding: 12px 12px;
+    background: #08c;
+    border: 1px solid #08c;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    margin: 10px 2px;
+    text-transform: capitalize;
+}
+
+
+
+.banner-2 .left {
+    background: url(../images/banner2.png) center bottom no-repeat;
+    background-size: cover;
+    width: 302px;
+    height: 500px;
+}
+.banner-2 .left h1 {
+    color: white;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 93px 0px 0px 103px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.banner-2 .left p {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 6px 0px 0px 99px;
+    text-align: center;
+    font-weight: 500;
+}
+.banner-2 .right {
+    background: url(../images/banner1.png) center bottom no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 386px;
+    text-align: left;
+}
+.review .inner .img {
+    text-align: center;
+    margin: 18px 0px 20px 138px;
+    width: 80px;
+}
+
+.review .inner img {
+    text-align: center;
+    margin: 0px 0px 30px 179px;
+}
+
+}
+@media(min-width:481px) and (max-width: 767px){
+
+
+
+
+
+
+
+}
+
+
+@media(min-width:768px) and (max-width: 1024px){
+
+}
